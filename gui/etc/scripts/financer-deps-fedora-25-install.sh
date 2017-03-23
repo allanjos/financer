@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DEPENDENCIES="at-spi2-atk at-spi2-core atk bzip2-libs cairo cairo-gobject clutter-devel cyrus-sasl-lib dbus-libs enchant expat fontconfig freetype gdk-pixbuf2 glib2 glibc gobject-introspection-devel graphite2 gstreamer-devel gstreamer1 gstreamer1-plugins-base gtk3 gtk3-devel harfbuzz harfbuzz-icu jbigkit-libs keyutils-libs krb5-libs libICE libSM libSM-devel libX11 libXau libXcomposite libXcursor libXdamage libXext libXfixes libXi libXinerama libXrandr libXrender libXt libXxf86vm libcom_err libdrm libffi libgcc libgcrypt libgda-devel libgpg-error libicu libjpeg-turbo libjpeg-turbo-devel libnotify libnotify-devel libpng libsecret libselinux libsoup libstdc++ libtiff libtiff-devel libuuid libwayland-client libwayland-cursor libwayland-server libwebp libxcb libxkbcommon libxml2 libxshmfence libxslt mesa-libEGL mesa-libGL mesa-libgbm mesa-libglapi nspr nss nss-softokn-freebl nss-util openldap openssl-libs orc pango pcre pixman postgresql-libs sqlite webkitgtk3 webkitgtk3-devel xz-libs zlib"
+
+sudo dnf install -y $DEPENDENCIES

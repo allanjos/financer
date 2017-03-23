@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+  <HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="GENERATOR" content="tex2rtf">
+    <meta name="Author" content="Allann Jones">
+    <meta name="keyword" content="">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- Sitemap 1.0 -->
+  </HEAD>
+  <BODY>
+    <OBJECT type="text/site properties">
+     <param name="ImageType" value="Folder">
+    </OBJECT>
+    <UL>
+      <LI>
+        <OBJECT type="text/sitemap">
+          <param name="Local" value="content.htm">
+          <param name="Name" value="Contents">
+          <param name="ID" value="0">
+        </OBJECT>
+      </LI>
+
+      <LI>
+        <OBJECT type="text/sitemap">
+          <param name="Local" value="intro.htm">
+          <param name="Name" value="Introduction">
+          <param name="ID" value="1">
+        </OBJECT>
+      </LI>
+
+      <LI>
+        <OBJECT type="text/sitemap">
+          <param name="Local" value="app-configuration.htm">
+          <param name="Name" value="Application configuration">
+          <param name="ID" value="0">
+        </OBJECT>
+      </LI>
+
+      <LI>
+        <OBJECT type="text/sitemap">
+          <param name="Local" value="modules.htm">
+          <param name="Name" value="Modules">
+          <param name="ID" value="2">
+        </OBJECT>
+
+        <UL>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="preferences.htm">
+              <param name="Name" value="Preferences">
+              <param name="ID" value="3">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="configuration.htm">
+              <param name="Name" value="General configuration">
+              <param name="ID" value="4">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="owner.htm">
+              <param name="Name" value="Owner">
+              <param name="ID" value="5">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="contacts.htm">
+              <param name="Name" value="Contacts">
+              <param name="ID" value="6">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="estate.htm">
+              <param name="Name" value="Estate">
+              <param name="ID" value="7">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="accounting.htm">
+              <param name="Name" value="Accounting">
+              <param name="ID" value="8">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="banks.htm">
+              <param name="Name" value="Banks">
+              <param name="ID" value="9">
+            </OBJECT>
+          </LI>
+
+          <LI>
+            <OBJECT type="text/sitemap">
+              <param name="Local" value="income_expense.htm">
+              <param name="Name" value="Incomes and expenses">
+              <param name="ID" value="10">
+            </OBJECT>
+          </LI>
+
+        </UL>
+      </LI>
+
+      <LI>
+        <OBJECT type="text/sitemap">
+          <param name="Local" value="changelog.htm">
+          <param name="Name" value="Changelog">
+          <param name="ID" value="0">
+        </OBJECT>
+      </LI>
+    </UL>
+  </BODY>
+</HTML>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <id>financer</id>
+  <database setuponinit="true">
+  </database>
+  <language id="English"/>
+</config>

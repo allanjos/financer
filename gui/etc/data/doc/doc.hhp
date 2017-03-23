@@ -1,0 +1,27 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=doc.hhc
+Compiled file=doc.chm
+Default Window=docHelp
+Default topic=content.htm
+Index file=doc.hhk
+Title=Guide
+
+[WINDOWS]
+docHelp=,"doc.hhc","doc.hhk","content.htm",,,,,,0x2420,,0x380e,,,,,0,,,
+
+[FILES]
+content.htm
+intro.htm
+app-configuration.htm
+modules.htm
+preferences.htm
+configuration.htm
+owner.htm
+contacts.htm
+estate.htm
+accounting.htm
+banks.htm
+income_expense.htm
+changelog.htm

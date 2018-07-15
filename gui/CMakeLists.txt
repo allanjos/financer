@@ -311,6 +311,7 @@ ELSE (UNIX)
                             version
                             wsock32
                             gdi32
+                            uxtheme
                             oleacc)
   ELSE ()
     SET (WXWIDGETS_INCLUDE_DIRS ${WXWIDGETS_DIR}/build/${OS_DISTRO}/lib

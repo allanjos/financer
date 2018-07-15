@@ -1,0 +1,60 @@
+wxWidgets
+=========
+
+Build
+-----
+
+* Windows/MinGW:
+
+SET PATH=%PATH%;C:\MinGW\bin
+cd <wxWidgets_SOURCE_DIR>\build\msw
+mingw32-make -f makefile.gcc USE_XRC=1 SHARED=0 MONOLITHIC=0 BUILD=release UNICODE=1
+
+wxWidgets files to be able to compile a wxWidgets application are in directories:
+- <wxWidgets_SOURCE_DIR>\include
+- <wxWidgets_SOURCE_DIR>\lib\gcc_lib.
+
+* Windows/MinGW/MSYS:
+
+../wxWidgets/configure --prefix=<OUTPUT_DIR> --build=x86-winnt-mingw32 --disable-shared --disable-threads --enable-cxx11
+make
+make install
+
+* Build for Linux:
+
+cd <WXWIDGETS_SRC_DIR>
+mkdir trunk; mkdir build
+svn checkout https://svn.wxwidgets.org/svn/wx/wxWidgets/trunk trunk
+cd build
+../trunk/configure --prefix=<WXWIDGETS_SRC_DIR>/dist \
+--enable-static --disable-shared --with-libpng --with-libjpeg --without-libtiff \
+--with-libxm --with-libiconv --with-regex=builtin --disable-stc --enable-htmlhelp \
+--enable-aui --enable-grid --enable-timer --enable-dynlib --enable-dynamicloader \
+--with-gtk=3 --enable-debug --enable-debug_gdb
+make
+make install
+
+
+DEPENDENCIES
+============
+
+Fedora Linux:
+-------------
+
+sudo yum groupinstall development-libs development-tools gnome-software-development
+sudo yum install perl
+sudo yum install cmake
+sudo yum install postgresql postgresql-devel
+sudo yum install libjpeg-turbo libjpeg-turbo-devel
+sudo yum install libtiff libtiff-devel
+sudo yum install libSM libSM-devel
+
+PostgreSQL:
+-----------
+
+sudo yum install postgresql postgresql-server \
+    postgresql-contrib postgresql-devel postgresql-libs
+
+Useful steps: fedoraproject.org/wiki/PostgreSQL
+
+For local development you can trust connections in: /var/lib/pgsql/data/pg_hba.conf
